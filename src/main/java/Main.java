@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class Main {
     public static void main(String[] args) {
-        // Inicializace Scanneru pro čtení z příkazové řádky (System.in)
+        // Inicializace Scanneru pro čtení z příkazové řádky [System.in]
         Scanner scanner = new Scanner(System.in);
         List<Polozka> nakup = new ArrayList<>();
 
@@ -18,7 +18,7 @@ public class Main {
             System.out.print("Zadej název položky (nebo napiš 'konec' pro tisk): ");
             String nazev = scanner.nextLine();
 
-            // Pokud uživatel napíše konec (nezáleží na velikosti písmen), ukončíme zadávání
+            // Pokud uživatel napíše konec [nezáleží na velikosti písmen], ukončíme zadávání
             if (nazev.equalsIgnoreCase("konec")) {
                 break;
             }
@@ -41,7 +41,7 @@ public class Main {
                 }
             }
 
-            // Ošetření chyby pro počet (musí to být celé číslo)
+            // Ošetření chyby pro počet [musí to být celé číslo]
             while (true) {
                 System.out.print("Zadej počet kusů: ");
                 try {
