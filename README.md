@@ -4,14 +4,13 @@
 
 # sestavení programu 
  Ke zkompilování projektu je zapotřebí Maven.
-1. V IntelliJ IDEA otevři pravý postranní panel **Maven**.
-2. Rozbal **Lifecycle** a dvakrát klikněte na **package**.
-   *(Případně lze použít příkaz `mvn clean package`, pokud je Maven nainstalovaný v systému).*
+1. V IntelliJ IDEA otevři -> View -> Tool windows - > Maven
+2. Otevře se ti postraní panel Maven
+3. Rozbal **Lifecycle** a dvakrát klikněte na **package**.
 
 Po  sestavení se vytvoří složka `target/` se spustitelným JAR souborem.
 
-# spuštění programu  
-Ke spuštění programu není potřeba vývojové prostředí.
+# spuštění programu
 1. Otevři systémový terminál.
 2. Přejdi do složky s projektem (`cd ~/IdeaProjects/druhy/uctenka`).
 3. Spusť program příkazem:
